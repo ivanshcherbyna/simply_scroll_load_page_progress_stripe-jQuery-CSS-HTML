@@ -1,0 +1,30 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#progress-stripe{
+	top: 0;
+	width: 0%;
+}
+
+#progress-stripe.loaded{
+	width: 100%;
+	transition: width 3s;
+	-webkit-transition: width 3s;
+	position: fixed;
+    min-width: auto;
+    border-top: 3px solid #F48024;
+}
+.content{
+	margin: 25px;
+}
+.bottom-fix{
+	bottom: 0;
+	width: 0%;
+	transition: width 1s;
+	-webkit-transition: width 1s;
+	position: fixed;
+    min-width: auto;
+    border-top: 3px solid #92f442;
+    box-shadow: -4px 13px 39px 3px #325615;
+}
